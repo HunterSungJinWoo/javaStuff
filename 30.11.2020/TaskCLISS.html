@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+    .box{
+        width:50px;
+        height: 50px;
+    }
+    .redBox
+    {
+        background-color: red;
+    }
+    .blueBox{
+        background-color: blue;
+    }
+    .yellowBox{
+        background-color: yellow;
+    }
+</style>
+
+    <script src='TaskCLISS.js'></script>
+</head>
+<body>
+    Rows:<input id="Rows">
+    Columns:<input id="Cols">
+    <select id="boxColor">
+        <option value="1">Red</option>
+        <option value="2">Blue</option>
+        <option value="3">Yellow</option>
+    </select>
+    <button onclick="CreateGrid();">Create grid</button>
+    <div id="Result"></div>
+</body>
+</html>
